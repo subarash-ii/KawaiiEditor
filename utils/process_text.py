@@ -34,7 +34,7 @@ def process_text(text: str):
     ending_syms = [
         ":3", ":33", "^^", "^-^", "(*≧ω≦*)",
         "(⁠≧⁠▽⁠≦⁠)", "o(>ω<)o", "(｡• ᵕ •｡)", "(*/ω＼*)",
-        "(>_<)", "(๑>&lt;๑)"
+        "(>_<)", "(๑><๑)"
     ]
     ending_sym = random.choices(ending_syms)[0]
 
